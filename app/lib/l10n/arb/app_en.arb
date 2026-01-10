@@ -1,0 +1,102 @@
+{
+    "@@locale": "en",
+    "gameTitle": "Zevenslag",
+    "@gameTitle": {
+        "description": "The title of the game"
+    },
+    "waitingForPlayers": "Waiting for players...",
+    "@waitingForPlayers": {
+        "description": "Status message when waiting for players to join"
+    },
+    "roundOver": "Round Over! Preparing next round...",
+    "@roundOver": {
+        "description": "Status message when a round is over"
+    },
+    "trickComplete": "Trick Complete!",
+    "@trickComplete": {
+        "description": "Status message when a trick is complete"
+    },
+    "yourTurn": "YOUR TURN",
+    "@yourTurn": {
+        "description": "Status message indicating it is the user's turn"
+    },
+    "yourBid": "YOUR BID",
+    "@yourBid": {
+        "description": "Status message indicating it is the user's turn to bid"
+    },
+    "playerTurn": "{playerName}'s Turn",
+    "@playerTurn": {
+        "description": "Status message indicating it is another player's turn",
+        "placeholders": {
+            "playerName": {
+                "type": "String"
+            }
+        }
+    },
+    "startGame": "Start Game",
+    "@startGame": {
+        "description": "Button text to start the game"
+    },
+    "score": "Score: {score}",
+    "@score": {
+        "description": "Display text for player score",
+        "placeholders": {
+            "score": {
+                "type": "int"
+            }
+        }
+    },
+    "bid": "Bid: {won}/{bid}",
+    "@bid": {
+        "description": "Display text for player bid status (won / bid)",
+        "placeholders": {
+            "won": {
+                "type": "int"
+            },
+            "bid": {
+                "type": "int"
+            }
+        }
+    },
+    "trump": "TRUMP",
+    "@trump": {
+        "description": "Label for the trump card section"
+    },
+    "noTrump": "NO TRUMP",
+    "@noTrump": {
+        "description": "Label when there is no trump suit"
+    },
+    "wins": "{playerName} Wins!",
+    "@wins": {
+        "description": "Message announcing the winner",
+        "placeholders": {
+            "playerName": {
+                "type": "String"
+            }
+        }
+    },
+    "you": "You",
+    "@you": {
+        "description": "Label referring to the current user"
+    },
+    "phaseBidding": "BIDDING",
+    "@phaseBidding": {
+        "description": "Name of the bidding phase"
+    },
+    "phasePlaying": "PLAYING",
+    "@phasePlaying": {
+        "description": "Name of the playing phase"
+    },
+    "phaseWaiting": "WAITING",
+    "@phaseWaiting": {
+        "description": "Name of the waiting phase"
+    },
+    "phaseRoundEnd": "ROUND END",
+    "@phaseRoundEnd": {
+        "description": "Name of the round end phase"
+    },
+    "phaseGameEnd": "GAME OVER",
+    "@phaseGameEnd": {
+        "description": "Name of the game end phase"
+    }
+}
